@@ -49,7 +49,7 @@ export default async function Page({ params }) {
               <Image
                 className="transition-all duration-500 hover:scale-110 hover:rotate-2"
                 src={image}
-                alt=""
+                alt="/"
                 width={760}
                 height={435}
               />
@@ -64,7 +64,7 @@ export default async function Page({ params }) {
             {character.skills.map(item => {
               return (
                 <li
-                  className="flex justify-center flex-grow px-2 py-1 text-orange-400 rounded-full bg-orange-950"
+                  className="flex justify-center flex-grow px-2 py-1 text-slate-200 rounded-md bg-blue-900"
                   key={item}
                 >
                   {item}
@@ -80,8 +80,8 @@ export default async function Page({ params }) {
           <ul className="grid gap-5">
             {character_quotes.map((item, idx) => {
               return (
-                <li
-                  className="p-2 italic text-gray-400 border-l-4 border-green-400 rounded-md"
+                <li                  
+                  className="p-2 italic text-gray-400 border-l-4 border-blue-900 rounded-md"
                   key={item.idx}
                 >
                   {item.quote}
