@@ -16,11 +16,7 @@
   }
 } */
 body {
-  background: linear-gradient(
-    to bottom,
-    #c86e6e77,
-    #13131c,
-    #8fa78f,
-    #13131c
-  );
+  background: linear-gradient(to bottom,
+      #c86e6e77,
+      #13131c);
 }
